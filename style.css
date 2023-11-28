@@ -64,8 +64,18 @@ header {
   color: #fff;
 }
 
+header nav ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
 header nav ul li {
   list-style-type: none;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
 
 header nav ul li a {
@@ -117,3 +127,7 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+
+@media all and (width: 768px) {
+  
+}
